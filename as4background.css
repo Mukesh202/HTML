@@ -1,0 +1,16 @@
+.container{
+    border: 10px solid #6fa3bb;
+    padding-bottom: 150px;
+    background-image: url("./unsplashimages/desurt.jpg");
+    
+    
+    
+    
+}
+.button{
+
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    color: rgba(132,132,132,255)
+}

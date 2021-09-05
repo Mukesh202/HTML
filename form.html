@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <title>form</title>
+    <head>
+
+<link rel="stylesheet" href="form.css">
+    </head>
+     <!-- this is in line form -->
+    <body style="background: greenyellow; text-align: center;">
+        <h3 style="color: red;"> Personal Details </h3>
+
+        <form>
+            <label for="name"> Name:</label>
+            <input class="user-input" type="Name" value="">
+            <br> <br>
+            <label for="password">Password:</label>
+            <input class="user-input" type="password" value="">
+            <br> <br>
+            <label for="dob">E mail id:</label>
+            <input class="user-input" type="text" value="">
+            <br><br>          
+            <label for="name">Gendar:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>                                      
+                <br> <br>
+                <label for="contact">Contact#:</label>
+                <input class="user-input" type="text" value="">
+                <br><br>
+                <h3 style="color: red;">Educational Qualification</h3>
+                <label for="address">Degree:</label>
+                <select name="Degree" id="Degree">Select group
+                    <option>Select group</option>
+                    <option> 1sem</option>
+                    <option>2 sem</option>
+                </select>               
+                <br> <br>
+                <label for="Engineering">Engineering:</label>
+                <select name="Engineering" id="Engineering">
+                    <option>Select group</option>
+                    <option>EE</option>
+                    <option>ME</option>
+                  </select>
+                <br><br>
+                <label for="name">Hobbies:</label>
+               <input type="radio" id="playing chess" name="Hobbies" value="chess">
+                <label for="Playing chess">Playing chess</label>
+                <input type="radio" id="Reading books" name="Hobbies" value="Reading books">
+                <label for="Reading books">Reading books</label>  
+                           
+                <br><br>
+              <h3 style="color: red;">Address</h3>
+              
+              <textarea name="adress" id="adress" cols="35" rows="5"></textarea>
+              
+                <br><br>
+                <label for="Attch Resume">Attch Resume:</label>
+                <button> Choose File </button>
+                <label for="contact">No file choosen</label>
+                <br><br>
+
+                <input type="button" value="SUBMIT" 
+                style="background-color: orangered; color: white; padding: 5px;padding-left: 40px;padding-right: 40px;">
+                <input type="Reset" value="Reset">
+
+        </form>
+    </body>
+</html>

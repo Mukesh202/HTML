@@ -1,0 +1,25 @@
+li {
+
+    display: inline;
+}
+
+ul {
+    text-align: end;
+    
+}
+a{
+    margin-right: 50px;
+    color: black;
+    text-decoration: none;
+}
+.navbar {
+    display: inline;
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+
+    padding: 10px;
+  }
+  

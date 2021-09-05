@@ -1,0 +1,27 @@
+.container{
+   
+    padding-bottom: 100px;
+    
+}
+.nav {
+    background-color: grey;
+}
+.button {
+    color: white;
+    background-color: grey;
+    text-align: center;
+    display: inline;
+    padding: 4px 260px;
+    
+}
+
+.header {
+    
+    padding: 60px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 15px;
+    word-spacing: 10px;
+    
+  }

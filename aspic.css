@@ -1,0 +1,26 @@
+.container{
+
+    
+    background-image: url(./unsplashimages/back3.jpg);width: 940px; height: 550px;
+    background-size: cover;
+
+}
+
+
+ button {
+
+    color: white;
+    background-color:rgba(242,72,55,255); 
+    margin-top: 10px;
+    border-radius: 30px;
+    border-width: 0px;
+    padding: 5px 15px;
+    
+}
+body {
+    padding: 30px;
+    
+}
+li{
+    color: 2px black;
+}

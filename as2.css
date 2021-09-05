@@ -1,0 +1,16 @@
+.container{
+    border: 5px solid black;
+    border-radius: 35px;
+    
+}
+.row {
+margin-top: 8px;
+    border-radius: 35;
+}
+.button{
+    background-color: rgba(23,31,100,255);
+    color: white;
+}
+.body{
+    padding: 50px;
+}

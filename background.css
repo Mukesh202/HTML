@@ -1,0 +1,12 @@
+.container{
+    border: 5px solid black;
+    
+    background-image: url("./unsplashimages/Amber_fort.jpg");shape-image-threshold: inherit;
+    
+}
+.border {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }

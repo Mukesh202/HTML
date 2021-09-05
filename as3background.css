@@ -1,0 +1,15 @@
+.container{
+    border: 5px solid black;
+    
+    background-image: url("./unsplashimages/eventm.jpg");
+    
+    background-repeat: no-repeat;
+    width: 800px; height: 600px;
+    
+}
+.border {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }

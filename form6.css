@@ -1,0 +1,46 @@
+ul#menu li {
+    display: inline;
+    color: white;
+     background-color: lightgray;
+    margin: 0%;
+  
+}
+li {
+    float: right;
+    padding: 10px;
+    background-color:yellow;
+    margin-right: 30px;
+    color: rgba(45,45,45,255);
+     
+}
+
+ul#heading li{ float: left;
+
+}
+div{
+    border-radius: 5px;
+   
+    padding: 20px;
+}
+.container {
+    
+    padding: 50px;
+}
+form{
+    padding: -20px;
+    float: right;
+}
+input{
+    padding: 8px;
+}
+select{
+    padding: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+
+    padding: 10px;
+  }

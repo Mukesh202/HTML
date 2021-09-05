@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title> Form assignment</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="formadvance.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="text-center py-3">HCL Technology</h2>
+            <div class="row py-3">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label> Name </label>
+                        <input type="text" class="form-control form-control-lg"><br>
+                        <input type="text" class="form-control form-control-md"><br>
+                        <input type="text" class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group">
+                        <label> Email </label>
+                        <input type="text" value="hcl@gmail.com" class="form-control-plaintext" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label> password </label>
+                        <input type="password" class="form-control">
+                        <small class="form-text text-muted"> Password must be 8 to 20 character</small>
+                    </div>
+                    <div class="form-group">
+                        <label> State </label>
+                       <select name="" id="" class="form-control">
+                           <option value="jammu &  kashmir">select</option>
+                           <option value="Rajasthan"> Rajasthan</option>
+                           <option value="hariyana"> Hariyana</option>
+                           <option value="Punjab">Punjab</option>
+                           <option value="New delhi">New delhi</option>
+                           <option value="New delhi">None</option>
+                       </select>
+                    </div>
+                    <div class="form-group">
+                        <label> Message </label>
+                        <textarea name="" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label> Upload image </label>
+                        <input type="file" class="form-control-file">
+                        
+                    </div>
+                    <div class="form-group">
+                        <label>Amount </label>
+                        <input type="range" class="form-control-range">
+                        
+                    </div>
+                    <div class="form-group form-check-inline">
+                        <label> Hobbies </label>
+                    <div class="form-check">
+                         <input type="checkbox" class="form-check-input" id="musiccheck">
+                        <label for="musiccheck" class="form-check-label">Music</label>
+                    </div>
+                    <div class="form-check">
+                       <input type="checkbox" class="form-check-input" id="sportscheck">
+                        <label for="sportscheck" class="form-check-label">Sports</label>
+                     </div>
+                     <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="bookcheck" disabled>
+                        <label for="bookcheck" class="form-check-label">Book</label>
+                     </div>
+                     </div>
+                     <div class="form-group form-check-inline">
+                        <label> Gender </label>
+                     <div class="form-check">
+                        <input type="radio" class="form-check-input" name="Gender" id="maleradio">
+                         <label for="maleradio" class="form-check-label">Male</label>
+                      </div>
+                      <div class="form-check">
+                         <input type="radio" class="form-check-input" name="Gender" id="femaleradio">
+                         <label for="femaleradio" class="form-check-label">Female</label>
+                      </div>
+                      </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
